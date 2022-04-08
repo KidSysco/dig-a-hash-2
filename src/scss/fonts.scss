@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Changa";
+  src: url("../assets/fonts/Changa/Changa-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("../assets/fonts/Cairo/Cairo-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Monoton";
+  src: url("../assets/fonts/Monoton/Monoton-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+h1 {
+  font-size: 3rem !important;
+}
+h2 {
+  font-size: 2rem !important;
+}
+h3 {
+  font-size: 1.5rem !important;
+}
+h4 {
+  font-size: 1.2rem !important;
+}
+
+body {
+  letter-spacing: 1px !important;
+}
+/*
+
+
+'size': .75rem,
+'weight': 500,
+'line-height': 2rem,
+'letter-spacing': .1666666667em,
+'font-family': $body-font-family,
+'text-transform': uppercase
+*/
