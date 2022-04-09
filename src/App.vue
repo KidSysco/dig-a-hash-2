@@ -1,6 +1,18 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="isSideNavShowing" app> </v-navigation-drawer>
+    <v-navigation-drawer v-model="isSideNavShowing" color="grey darken-4" app>
+      <div class="pa-6">
+        <v-img src="/img/logo-hero-transparent.png" contain class=""></v-img>
+      </div>
+      <v-list>
+        <v-list-item :dark="true" to="/#Home">
+          <v-list-item-title class="styles-link-text">Home</v-list-item-title>
+        </v-list-item>
+        <v-list-item :dark="true" to="/#Home">
+          <v-list-item-title class="styles-link-text">Home</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
     <v-app-bar app color="black" outlined flat>
       <v-row dense>
         <v-col cols="12" sm="6" class="d-flex justify-center justify-sm-start"
