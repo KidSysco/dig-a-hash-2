@@ -17,8 +17,9 @@
       <v-row dense>
         <v-col cols="12" md="3"></v-col>
         <v-col cols="12" md="6" class="px-12"
-          >Dig-A-Hash houses multiple brands from our launch-pad, and helps
-          businesses define their own crypto strategy.</v-col
+          >Dig-A-Hash houses multiple brands from our launch-pad, and we help
+          our business customers develop their technical strategy in
+          crypto.</v-col
         >
         <v-col cols="12" md="3"></v-col>
       </v-row>
