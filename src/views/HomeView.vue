@@ -137,16 +137,31 @@
       <v-row>
         <v-col cols="12" md="4">
           <v-card class="rounded-t-xl">
-            <v-img
-              class="white--text align-end"
+            <video
               height="200px"
-              src="/img/CryptoRichDeluxeAlbumCover-small.jpg"
+              autoplay=""
+              class=""
+              width="100%"
+              controls=""
+              controlslist="nodownload"
+              loop=""
+              playsinline=""
+              poster="https://lh3.googleusercontent.com/mJw_oVi5frS5gtGIvxFibeTfebY6FVzQTn-KhVqXM79RITfOoojRNJ-GzuBhjhxnXE0Xn55lBK_QH0QHZdvNYnSC3YUV7TJFJx8mlg"
+              preload="metadata"
             >
-            </v-img
-            ><v-card-title>DYL NFT</v-card-title>
-            <v-card-subtitle class="pb-0"> Dig-A-Hash Partner </v-card-subtitle>
+              <source
+                src="https://openseauserdata.com/files/921c4136022827b17b4e12b361b91e8b.mp4#t=0.001"
+                type="video/mp4"
+              />
+            </video>
+            <v-card-title>Stay NFTy</v-card-title>
+            <v-card-subtitle class="pb-0"> Music NFT </v-card-subtitle>
             <v-card-text class="text--primary">
-              <div>Rap/Hip-Hop, Music NFTs, and Audio/Video Production</div>
+              <div>
+                Press play on the track above to hear, Stay NFTy by Dan The Lost
+                Boy. Dig-A-Hash partnered with Project LB52 to produce this
+                hip-hop audio track as an NFT using the Ethereum Blockchain.
+              </div>
             </v-card-text>
             <v-card-actions
               class="d-flex flex-wrap justify-center justify-sm-start"
@@ -544,6 +559,15 @@
                 <v-icon class="mr-2">mdi-twitter</v-icon>
                 Twitter
               </v-btn>
+              <v-btn
+                color="orange"
+                text
+                href="https://steemit.com/@kidsysco"
+                target="_new"
+              >
+                <v-icon class="mr-2">mdi-post-outline</v-icon>
+                Blog
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -571,6 +595,11 @@
       <v-row class="my-16">
         <v-col>
           <hr class="purple darken-4" />
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <a href="https://dig-a-hash.medium.com/">Dig-A-Hash Medium Blog</a>
         </v-col>
       </v-row>
       <v-row class="mt-16">
