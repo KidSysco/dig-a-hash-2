@@ -5,11 +5,41 @@
         <v-img src="/img/logo-hero-transparent.png" contain class=""></v-img>
       </div>
       <v-list>
-        <v-list-item :dark="true" to="/#Home">
-          <v-list-item-title class="styles-link-text">Home</v-list-item-title>
+        <v-list-item :dark="true" href="/#Home">
+          <v-list-item-title class="styles-link-text"
+            ><v-icon class="mr-2">mdi-home-circle</v-icon>
+            Home</v-list-item-title
+          >
         </v-list-item>
-        <v-list-item :dark="true" to="/#Home">
-          <v-list-item-title class="styles-link-text">Home</v-list-item-title>
+        <v-list-item :dark="true" href="/#ProjectWork">
+          <v-list-item-title class="styles-link-text"
+            ><v-icon class="mr-2">mdi-auto-fix</v-icon> Project
+            Work</v-list-item-title
+          >
+        </v-list-item>
+        <v-list-item :dark="true" href="/#MetaGalleries">
+          <v-list-item-title class="styles-link-text"
+            ><v-icon class="mr-2">mdi-rotate-3d</v-icon> Meta
+            Galleries</v-list-item-title
+          >
+        </v-list-item>
+        <v-list-item :dark="true" href="/#NFTGalleries">
+          <v-list-item-title class="styles-link-text"
+            ><v-icon class="mr-2">mdi-palette</v-icon> NFT
+            Galleries</v-list-item-title
+          >
+        </v-list-item>
+        <v-list-item :dark="true" href="/#Roadmap">
+          <v-list-item-title class="styles-link-text"
+            ><v-icon class="mr-2">mdi-road-variant</v-icon>
+            Roadmap</v-list-item-title
+          >
+        </v-list-item>
+        <v-list-item :dark="true" href="/#Team">
+          <v-list-item-title class="styles-link-text"
+            ><v-icon class="mr-2">mdi-account-group</v-icon>
+            Team</v-list-item-title
+          >
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -34,18 +64,15 @@
           cols="12"
           sm="6"
           class="d-none d-sm-flex justify-end align-center"
-          ><div>
-            <a href="https://twitter.com/dig_a_hash" target="_new">
-              <v-img
-                :src="twitterSrc"
-                contain
-                max-height="30"
-                alt="Twitter"
-                @mouseover="twitterSrc = twitterStates.on"
-                @mouseout="twitterSrc = twitterStates.off"
-              ></v-img
-            ></a></div
-        ></v-col>
+        >
+          <v-btn
+            icon
+            color="amber darken-3"
+            href="https://twitter.com/dig_a_hash"
+            target="_new"
+            ><v-icon>mdi-twitter</v-icon></v-btn
+          >
+        </v-col>
       </v-row>
     </v-app-bar>
 
@@ -61,11 +88,6 @@ export default {
 
   data: () => ({
     isSideNavShowing: false,
-    twitterStates: {
-      off: "/img/twitter-off.gif",
-      on: "/img/twitter.gif",
-    },
-    twitterSrc: "/img/twitter-off.gif",
   }),
 };
 </script>
