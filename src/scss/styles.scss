@@ -8,3 +8,11 @@
   background-size: 100% 100% !important;
   background-attachment: fixed;
 }
+
+.v-carousel  {
+  max-height: 370px;
+}
+
+.v-carousel__controls {
+  display: none !important;
+}
