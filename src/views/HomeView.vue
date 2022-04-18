@@ -636,7 +636,7 @@ export default {
       "Native.jpg",
       "NFTWOMAN1221.jpg",
       "Reminiscing_Tcjsart.jpg",
-      "Scrying.jpg",
+      "scrying.jpg",
       "shalini_womenseries.png",
       "Space Monkey 43_Space Monkey Fight Club.png",
       "Trash street_ozgegulbakan.jpg",
