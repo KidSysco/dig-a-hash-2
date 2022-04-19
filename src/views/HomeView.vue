@@ -281,16 +281,17 @@
       <v-row>
         <v-col cols="12" md="4">
           <v-card class="rounded-t-xl">
-            <v-img
-              src="https://lh3.googleusercontent.com/FdraKGBEcA319xJX-vHvMV4rT2V2okturxHIY1wIBCkA3Yc1MKH7s5UXVpjTiOE-L3KqQn_RYH9MexjF8wZBV3B2YsSpj9_4ztm0ZQA=w600"
-              max-height="370"
-              class="d-flex d-xl-none"
-            ></v-img>
-            <v-img
-              src="https://lh3.googleusercontent.com/FdraKGBEcA319xJX-vHvMV4rT2V2okturxHIY1wIBCkA3Yc1MKH7s5UXVpjTiOE-L3KqQn_RYH9MexjF8wZBV3B2YsSpj9_4ztm0ZQA=w600"
-              max-height="570"
-              class="d-none d-xl-flex"
-            ></v-img>
+            <v-carousel>
+              <v-carousel-item
+                max-height="370"
+                v-for="(item, i) in items"
+                :key="i"
+                :src="item.src"
+                reverse-transition="fade-transition"
+                transition="fade-transition"
+              >
+              </v-carousel-item>
+            </v-carousel>
             <v-card-title>Ethereum NFT Gallery</v-card-title>
             <v-card-subtitle class="pb-0"> OpenSea </v-card-subtitle>
             <v-card-text class="text--primary">
@@ -623,7 +624,30 @@
 <script>
 export default {
   name: "home-view",
-  data: () => ({}),
+  data() {
+    const fileNames = [
+      "abstract1.png",
+      "abstract2.png",
+      "birds.jpg",
+      "Chop SUey.jpg",
+      "DimensionOfMind.png",
+      "Hopeful.jpg",
+      "mixed trash.jpg",
+      "Native.jpg",
+      "NFTWOMAN1221.jpg",
+      "Reminiscing_Tcjsart.jpg",
+      "scrying.jpg",
+      "shalini_womenseries.png",
+      "Space Monkey 43_Space Monkey Fight Club.png",
+      "Trash street_ozgegulbakan.jpg",
+      "trash2.jpg",
+      "trash3.jpg",
+    ];
+
+    return {
+      items: fileNames.map((f) => ({ src: `/img/ETH_NFTs/${f}` })),
+    };
+  },
   components: {},
 };
 </script>

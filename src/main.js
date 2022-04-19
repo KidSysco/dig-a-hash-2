@@ -4,7 +4,6 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
-
 import "./scss/fonts.scss";
 import "./scss/styles.scss";
 
