@@ -16,9 +16,9 @@
       </v-row>
       <v-row dense>
         <v-col cols="12" md="3"></v-col>
-        <v-col cols="12" md="6" class="px-12">
-          Dig-A-Hash houses multiple brands from our launch-pad, and we help our
-          business customers develop their technical strategy.
+        <v-col cols="12" md="6" class="px-12 text-center">
+          Dig-A-Hash houses multiple brands from our launch-pad. We help our
+          customers develop their tech, and we curate art for your enjoyment.
           <div class="text-center mt-6">
             <v-btn
               x-large
@@ -67,7 +67,7 @@
                 class="my-1"
               >
                 <v-icon class="mr-2">mdi-home-group</v-icon>
-                Explore
+                Visit NFTy Stays
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -97,7 +97,7 @@
                 href="https://www.gorecats.io/"
                 target="_new"
                 class="my-1"
-                ><v-icon class="mr-2">mdi-knife</v-icon> Explore
+                ><v-icon class="mr-2">mdi-knife</v-icon> Explore Gorecats
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -128,7 +128,7 @@
                 target="_new"
                 class="my-1"
               >
-                <v-icon class="mr-2">mdi-skull</v-icon> Explore
+                <v-icon class="mr-2">mdi-skull</v-icon> Tattoo Shop
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -165,7 +165,7 @@
             </v-card-text>
             <v-card-actions
               class="d-flex flex-wrap justify-center justify-sm-start"
-            >
+              ><!--
               <v-btn
                 color="orange"
                 outlined
@@ -174,6 +174,57 @@
                 class="my-1"
               >
                 <v-icon class="mr-2">mdi-music</v-icon> Explore
+              </v-btn> -->
+            </v-card-actions>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="rounded-t-xl">
+            <!-- <v-img src="/img/mortuary.png" height="200"></v-img> -->
+            <v-carousel
+              cycle
+              show-arrows-on-hover
+              height="200"
+              :show-arrows="false"
+            >
+              <v-carousel-item
+                max-height="200"
+                src="/img/mortuary.png"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+              <v-carousel-item
+                max-height="200"
+                src="/img/mortuary-minion.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+            </v-carousel>
+            <v-card-title>NFT Mortuary</v-card-title>
+            <v-card-subtitle class="pb-0">
+              NFT Burning Services
+            </v-card-subtitle>
+            <v-card-text class="text--primary">
+              <div>
+                Burn Solana NFTs at our Mortuary and earn $ASH tokens as a
+                reward. We offer 8 plots ready to serve, with the best returns
+                in the business, and a Mortuary Minion boosting every burn to
+                maximize your yield!
+              </div>
+            </v-card-text>
+            <v-card-actions
+              class="d-flex flex-wrap justify-center justify-sm-start"
+            >
+              <v-btn
+                color="orange"
+                outlined
+                href="https://beta.mortuary-inc.io/commons/91X4rGu9n8t92obLZaig8NS2PAvB7pXrfG5YTgnb8W7o"
+                target="_new"
+                class="my-1"
+              >
+                <v-icon class="mr-2">mdi-grave-stone</v-icon> Mortuary Services
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -183,13 +234,6 @@
           md="4"
           class="d-none d-md-flex align-center justify-center text-center blue--text indigo--text text--darken-3"
           >Project STOIC<br />Coming <br />
-          Soon!</v-col
-        >
-        <v-col
-          cols="12"
-          md="4"
-          class="d-none d-md-flex align-center justify-center text-center blue--text indigo--text text--darken-3"
-          >Coming <br />
           Soon!</v-col
         >
       </v-row>
@@ -281,14 +325,13 @@
       <v-row>
         <v-col cols="12" md="4">
           <v-card class="rounded-t-xl">
-            <v-carousel>
+            <v-carousel cycle show-arrows-on-hover>
               <v-carousel-item
-                max-height="370"
                 v-for="(item, i) in items"
                 :key="i"
                 :src="item.src"
-                reverse-transition="fade-transition"
-                transition="fade-transition"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
               >
               </v-carousel-item>
             </v-carousel>
@@ -535,7 +578,7 @@
                 <v-img height="300px" src="/img/avatar-kid.jpg"> </v-img
               ></v-avatar>
             </div>
-            <v-card-title>Hologram, The Dig-A-Hash Kid</v-card-title>
+            <v-card-title>Dig-A-Hash Kid</v-card-title>
             <v-card-subtitle class="pb-0">
               FinTech Software Developer
             </v-card-subtitle>
@@ -609,7 +652,7 @@
             src="/img/logo-hero-transparent.png"
             contain
             max-height="80"
-            class="Dig-A-Hash Holdings my-2"
+            class="my-2"
           ></v-img>
         </v-col>
       </v-row>
@@ -623,25 +666,25 @@
 
 <script>
 export default {
-  name: "home-view",
+  name: 'home-view',
   data() {
     const fileNames = [
-      "abstract1.png",
-      "abstract2.png",
-      "birds.jpg",
-      "Chop SUey.jpg",
-      "DimensionOfMind.png",
-      "Hopeful.jpg",
-      "mixed trash.jpg",
-      "Native.jpg",
-      "NFTWOMAN1221.jpg",
-      "Reminiscing_Tcjsart.jpg",
-      "scrying.jpg",
-      "shalini_womenseries.png",
-      "Space Monkey 43_Space Monkey Fight Club.png",
-      "Trash street_ozgegulbakan.jpg",
-      "trash2.jpg",
-      "trash3.jpg",
+      'abstract1.png',
+      'abstract2.png',
+      'birds.jpg',
+      'Chop SUey.jpg',
+      'DimensionOfMind.png',
+      'Hopeful.jpg',
+      'mixed trash.jpg',
+      'Native.jpg',
+      'NFTWOMAN1221.jpg',
+      'Reminiscing_Tcjsart.jpg',
+      'scrying.jpg',
+      'shalini_womenseries.png',
+      'Space Monkey 43_Space Monkey Fight Club.png',
+      'Trash street_ozgegulbakan.jpg',
+      'trash2.jpg',
+      'trash3.jpg',
     ];
 
     return {
