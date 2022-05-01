@@ -137,50 +137,6 @@
       <v-row>
         <v-col cols="12" md="4">
           <v-card class="rounded-t-xl">
-            <video
-              height="200px"
-              autoplay=""
-              class=""
-              width="100%"
-              controls=""
-              controlslist="nodownload"
-              loop=""
-              playsinline=""
-              poster="https://lh3.googleusercontent.com/mJw_oVi5frS5gtGIvxFibeTfebY6FVzQTn-KhVqXM79RITfOoojRNJ-GzuBhjhxnXE0Xn55lBK_QH0QHZdvNYnSC3YUV7TJFJx8mlg"
-              preload="metadata"
-            >
-              <source
-                src="https://openseauserdata.com/files/921c4136022827b17b4e12b361b91e8b.mp4#t=0.001"
-                type="video/mp4"
-              />
-            </video>
-            <v-card-title>Stay NFTy</v-card-title>
-            <v-card-subtitle class="pb-0"> Music NFT </v-card-subtitle>
-            <v-card-text class="text--primary">
-              <div>
-                Press play on the track above to hear, Stay NFTy by Dan The Lost
-                Boy. Dig-A-Hash partnered with Project LB52 to produce this
-                hip-hop audio track as an NFT using the Ethereum Blockchain.
-              </div>
-            </v-card-text>
-            <v-card-actions
-              class="d-flex flex-wrap justify-center justify-sm-start"
-              ><!--
-              <v-btn
-                color="orange"
-                outlined
-                href="https://www.itslit.org/crypto-rich-deluxe"
-                target="_new"
-                class="my-1"
-              >
-                <v-icon class="mr-2">mdi-music</v-icon> Explore
-              </v-btn> -->
-            </v-card-actions>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-card class="rounded-t-xl">
-            <!-- <v-img src="/img/mortuary.png" height="200"></v-img> -->
             <v-carousel
               cycle
               show-arrows-on-hover
@@ -234,6 +190,13 @@
           md="4"
           class="d-none d-md-flex align-center justify-center text-center blue--text indigo--text text--darken-3"
           >Project STOIC<br />Coming <br />
+          Soon!</v-col
+        >
+        <v-col
+          cols="12"
+          md="4"
+          class="d-none d-md-flex align-center justify-center text-center blue--text indigo--text text--darken-3"
+          >Coming <br />
           Soon!</v-col
         >
       </v-row>
@@ -357,19 +320,32 @@
         <v-col cols="12" md="4">
           <v-card class="rounded-t-xl">
             <div class="rounded-t-xl">
-              <video
-                width="100%"
-                class="rounded-t-xl"
-                autobuffer="autobuffer"
-                autoplay="autoplay"
-                muted
-                loop="loop"
+              <v-carousel
+              class="rounded-t-xl"
+              cycle
+              show-arrows-on-hover
+              :show-arrows="false"
+              interval="14000"
+            >
+              <v-carousel-item
+                src="/img/tezos/Punky-and-Cat.png"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
               >
-                <source
-                  src="https://assets.objkt.media/file/assets-003/QmYfk9BzLrUAGZXUEYEwc95YFhpEdvHJQxG2k3ANDNwEJb/artifact"
-                  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-                />
-              </video>
+              </v-carousel-item>
+              <v-carousel-item
+                src="/img/tezos/The-Curse-Of-Procrastination.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+              <v-carousel-item
+                src="/img/tezos/Some-Punky-Accessories.png"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+            </v-carousel>
             </div>
             <v-card-title class="mt-n3">Tezos NFT Gallery</v-card-title>
             <v-card-subtitle class="pb-0"> objkt.com </v-card-subtitle>
@@ -396,16 +372,44 @@
         </v-col>
         <v-col cols="12" md="4">
           <v-card class="rounded-t-xl">
-            <v-img
-              src="/img/street-kings2.jpg"
-              max-height="370"
-              class="d-flex d-xl-none"
-            ></v-img>
-            <v-img
-              src="/img/street-kings2.jpg"
-              max-height="570"
-              class="d-none d-xl-flex"
-            ></v-img>
+            <v-carousel
+              class="rounded-t-xl"
+              cycle
+              show-arrows-on-hover
+              :show-arrows="false"
+              interval="8000"
+            >
+              <v-carousel-item
+                src="/img/near/astropup.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+              <v-carousel-item
+                src="/img/near/street-kings.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+              <v-carousel-item
+                src="/img/near/near-skull.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              ></v-carousel-item>
+              <v-carousel-item
+                src="/img/near/nearnaut.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              ></v-carousel-item>
+              <v-carousel-item
+                src="/img/near/street-kings2.jpg"
+                reverse-transition="scroll-x-reverse-transition"
+                transition="scroll-x-transition"
+              >
+              </v-carousel-item>
+              
+              
+            </v-carousel>
             <v-card-title>Near NFT Gallery</v-card-title>
             <v-card-subtitle class="pb-0"> Paras </v-card-subtitle>
             <v-card-text class="text--primary">
@@ -592,7 +596,7 @@
               </div>
             </v-card-text>
             <v-card-actions
-              class="d-flex flex-wrap justify-center justify-sm-start"
+              class="d-flex flex-wrap justify-center"
             >
               <v-btn
                 color="orange"
@@ -611,6 +615,15 @@
               >
                 <v-icon class="mr-2">mdi-post-outline</v-icon>
                 Blog
+              </v-btn>
+              <v-btn
+                color="orange"
+                text
+                href="https://steemit.com/@kidsysco"
+                target="_new"
+              >
+                <v-icon class="mr-2">mdi-github</v-icon>
+                GitHub
               </v-btn>
             </v-card-actions>
           </v-card>
