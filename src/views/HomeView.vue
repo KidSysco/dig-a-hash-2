@@ -619,7 +619,7 @@
               <v-btn
                 color="orange"
                 text
-                href="https://steemit.com/@kidsysco"
+                href="https://github.com/KidSysco/"
                 target="_new"
               >
                 <v-icon class="mr-2">mdi-github</v-icon>
