@@ -598,6 +598,7 @@
             <v-card-actions
               class="d-flex flex-wrap justify-center"
             >
+            <!--
               <v-btn
                 color="orange"
                 text
@@ -606,7 +607,7 @@
               >
                 <v-icon class="mr-2">mdi-twitter</v-icon>
                 Twitter
-              </v-btn>
+              </v-btn> -->
               <v-btn
                 color="orange"
                 text
