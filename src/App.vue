@@ -17,10 +17,10 @@
             Work</v-list-item-title
           >
         </v-list-item>
-        <v-list-item :dark="true" href="/#MetaGalleries">
+        <v-list-item :dark="true" href="/#DigPlanet">
           <v-list-item-title class="styles-link-text"
-            ><v-icon class="mr-2">mdi-rotate-3d</v-icon> Meta
-            Galleries</v-list-item-title
+            ><v-icon class="mr-2">mdi-rotate-3d</v-icon>
+            Dig-A-Planet</v-list-item-title
           >
         </v-list-item>
         <v-list-item :dark="true" href="/#NFTGalleries">
@@ -84,7 +84,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
 
   data: () => ({
     isSideNavShowing: false,

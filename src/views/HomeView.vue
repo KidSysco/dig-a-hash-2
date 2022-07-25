@@ -201,29 +201,20 @@
         >
       </v-row>
       <v-row>
+        <div id="DigPlanet"></div>
         <v-col
           cols="12"
           class="mt-16 text-center orange--text text--lighten-1 px-12"
-          ><h2>Metaverse Art Galleries</h2></v-col
+          ><h2>Dig-A-Planet Metaverse</h2></v-col
         >
       </v-row>
       <v-row dense>
         <v-col cols="12" md="3"></v-col>
         <v-col cols="12" md="6" class="px-12"
-          >Dig-A-Hash Holdings shares our vaults of fine art with the world
-          through our Metaverse Art Galleries. Explore our rotating art
-          collections in 3D, all you need is a web browser. So step in to the
-          metaverse with us, and have some fun!</v-col
+          >Watch us demonstrate business application on our very own planet in
+          the metaverse.</v-col
         >
         <v-col cols="12" md="3"></v-col>
-      </v-row>
-      <div id="MetaGalleries"></div>
-      <v-row class="mt-16" dense>
-        <v-col cols="12">
-          <h3 class="light-green--text text--accent-4 text-center text-sm-left">
-            Meta Galleries
-          </h3>
-        </v-col>
       </v-row>
       <v-row>
         <v-col cols="12">
@@ -321,31 +312,31 @@
           <v-card class="rounded-t-xl">
             <div class="rounded-t-xl">
               <v-carousel
-              class="rounded-t-xl"
-              cycle
-              show-arrows-on-hover
-              :show-arrows="false"
-              interval="14000"
-            >
-              <v-carousel-item
-                src="/img/tezos/Punky-and-Cat.png"
-                reverse-transition="scroll-x-reverse-transition"
-                transition="scroll-x-transition"
+                class="rounded-t-xl"
+                cycle
+                show-arrows-on-hover
+                :show-arrows="false"
+                interval="14000"
               >
-              </v-carousel-item>
-              <v-carousel-item
-                src="/img/tezos/The-Curse-Of-Procrastination.jpg"
-                reverse-transition="scroll-x-reverse-transition"
-                transition="scroll-x-transition"
-              >
-              </v-carousel-item>
-              <v-carousel-item
-                src="/img/tezos/Some-Punky-Accessories.png"
-                reverse-transition="scroll-x-reverse-transition"
-                transition="scroll-x-transition"
-              >
-              </v-carousel-item>
-            </v-carousel>
+                <v-carousel-item
+                  src="/img/tezos/Punky-and-Cat.png"
+                  reverse-transition="scroll-x-reverse-transition"
+                  transition="scroll-x-transition"
+                >
+                </v-carousel-item>
+                <v-carousel-item
+                  src="/img/tezos/The-Curse-Of-Procrastination.jpg"
+                  reverse-transition="scroll-x-reverse-transition"
+                  transition="scroll-x-transition"
+                >
+                </v-carousel-item>
+                <v-carousel-item
+                  src="/img/tezos/Some-Punky-Accessories.png"
+                  reverse-transition="scroll-x-reverse-transition"
+                  transition="scroll-x-transition"
+                >
+                </v-carousel-item>
+              </v-carousel>
             </div>
             <v-card-title class="mt-n3">Tezos NFT Gallery</v-card-title>
             <v-card-subtitle class="pb-0"> objkt.com </v-card-subtitle>
@@ -407,8 +398,6 @@
                 transition="scroll-x-transition"
               >
               </v-carousel-item>
-              
-              
             </v-carousel>
             <v-card-title>Near NFT Gallery</v-card-title>
             <v-card-subtitle class="pb-0"> Paras </v-card-subtitle>
@@ -595,10 +584,8 @@
                 </ul>
               </div>
             </v-card-text>
-            <v-card-actions
-              class="d-flex flex-wrap justify-center"
-            >
-            <!--
+            <v-card-actions class="d-flex flex-wrap justify-center">
+              <!--
               <v-btn
                 color="orange"
                 text
