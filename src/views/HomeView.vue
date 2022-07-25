@@ -268,13 +268,20 @@
           </v-card>
         </v-col>
       </v-row>
-      <div id="NFTGalleries"></div>
-      <v-row class="mt-16" dense>
-        <v-col cols="12">
-          <h3 class="light-green--text text--accent-4 text-center text-sm-left">
-            NFT Galleries
-          </h3>
-        </v-col>
+      <v-row>
+        <div id="DigitalAssets"></div>
+        <v-col
+          cols="12"
+          class="mt-16 text-center orange--text text--lighten-1 px-12"
+          ><h2>Digital Assets</h2></v-col
+        >
+      </v-row>
+      <v-row dense>
+        <v-col cols="12" md="3"></v-col>
+        <v-col cols="12" md="6" class="px-12"
+          >Dig-A-Hash shares our vaults of various digital assets across multiple block chains.</v-col
+        >
+        <v-col cols="12" md="3"></v-col>
       </v-row>
       <v-row>
         <v-col cols="12" md="4">

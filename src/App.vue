@@ -23,10 +23,10 @@
             Dig-A-Planet</v-list-item-title
           >
         </v-list-item>
-        <v-list-item :dark="true" href="/#NFTGalleries">
+        <v-list-item :dark="true" href="/#DigitalAssets">
           <v-list-item-title class="styles-link-text"
-            ><v-icon class="mr-2">mdi-palette</v-icon> NFT
-            Galleries</v-list-item-title
+            ><v-icon class="mr-2">mdi-palette</v-icon> Digital
+            Assets</v-list-item-title
           >
         </v-list-item>
         <v-list-item :dark="true" href="/#Roadmap">
