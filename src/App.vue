@@ -65,13 +65,6 @@
           sm="6"
           class="d-none d-sm-flex justify-end align-center"
         >
-          <v-btn
-            icon
-            color="amber darken-3"
-            href="https://twitter.com/dig_a_hash"
-            target="_new"
-            ><v-icon>mdi-twitter</v-icon></v-btn
-          >
         </v-col>
       </v-row>
     </v-app-bar>
