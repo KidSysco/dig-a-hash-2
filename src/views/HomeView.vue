@@ -42,7 +42,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card class="rounded-t-xl">
             <v-img
               class="white--text align-end"
@@ -72,12 +72,12 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card class="rounded-t-xl">
             <v-img
               class="white--text align-end"
               height="200px"
-              src="/img/gc-type-fiendish.jpg"
+              src="/img/gorecats-popcorn.png"
             >
             </v-img>
             <v-card-title>Gorecats</v-card-title>
@@ -102,103 +102,6 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col cols="12" md="4">
-          <v-card class="rounded-t-xl">
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="/img/meta-tattoos-d-two.jpg"
-            >
-            </v-img>
-            <v-card-title>Darkside Metaverse Tattoos</v-card-title>
-            <v-card-subtitle class="pb-0">
-              Dig-A-Hash Business Customer
-            </v-card-subtitle>
-            <v-card-text class="text--primary">
-              <div>Tattoo Art for Metaverse Avatars</div>
-              <div>NFT collections created by real tattoo artists.</div>
-            </v-card-text>
-            <v-card-actions
-              class="d-flex flex-wrap justify-center justify-sm-start"
-            >
-              <v-btn
-                color="orange"
-                outlined
-                href="https://exchange.art/collections/Darkside%20Tattoo%20Collection/nfts"
-                target="_new"
-                class="my-1"
-              >
-                <v-icon class="mr-2">mdi-skull</v-icon> Tattoo Shop
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col cols="12" md="4">
-          <v-card class="rounded-t-xl">
-            <v-carousel
-              cycle
-              show-arrows-on-hover
-              height="200"
-              :show-arrows="false"
-            >
-              <v-carousel-item
-                max-height="200"
-                src="/img/mortuary.png"
-                reverse-transition="scroll-x-reverse-transition"
-                transition="scroll-x-transition"
-              >
-              </v-carousel-item>
-              <v-carousel-item
-                max-height="200"
-                src="/img/mortuary-minion.jpg"
-                reverse-transition="scroll-x-reverse-transition"
-                transition="scroll-x-transition"
-              >
-              </v-carousel-item>
-            </v-carousel>
-            <v-card-title>NFT Mortuary</v-card-title>
-            <v-card-subtitle class="pb-0">
-              NFT Burning Services
-            </v-card-subtitle>
-            <v-card-text class="text--primary">
-              <div>
-                Burn Solana NFTs at our Mortuary and earn $ASH tokens as a
-                reward. We offer 8 plots ready to serve, with the best returns
-                in the business, and a Mortuary Minion boosting every burn to
-                maximize your yield!
-              </div>
-            </v-card-text>
-            <v-card-actions
-              class="d-flex flex-wrap justify-center justify-sm-start"
-            >
-              <v-btn
-                color="orange"
-                outlined
-                href="https://beta.mortuary-inc.io/commons/91X4rGu9n8t92obLZaig8NS2PAvB7pXrfG5YTgnb8W7o"
-                target="_new"
-                class="my-1"
-              >
-                <v-icon class="mr-2">mdi-grave-stone</v-icon> Mortuary Services
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-col>
-        <v-col
-          cols="12"
-          md="4"
-          class="d-none d-md-flex align-center justify-center text-center blue--text indigo--text text--darken-3"
-          >Project STOIC<br />Coming <br />
-          Soon!</v-col
-        >
-        <v-col
-          cols="12"
-          md="4"
-          class="d-none d-md-flex align-center justify-center text-center blue--text indigo--text text--darken-3"
-          >Coming <br />
-          Soon!</v-col
-        >
       </v-row>
       <v-row>
         <div id="DigPlanet"></div>
@@ -279,7 +182,8 @@
       <v-row dense>
         <v-col cols="12" md="3"></v-col>
         <v-col cols="12" md="6" class="px-12"
-          >Dig-A-Hash shares our vaults of various digital assets across multiple block chains.</v-col
+          >Dig-A-Hash shares our vaults of various digital assets across
+          multiple block chains.</v-col
         >
         <v-col cols="12" md="3"></v-col>
       </v-row>
