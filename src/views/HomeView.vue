@@ -53,7 +53,10 @@
             ><v-card-title>NFTy Stays</v-card-title>
             <v-card-subtitle class="pb-0"> Dig-A-Hash Brand </v-card-subtitle>
             <v-card-text class="text--primary">
-              <div>Web 3 Ready Short-Term Rentals</div>
+              <div>
+                Web3 Ready Short Term Rental's <br />Immersive Experience Mobile
+                Application
+              </div>
               <div>Jacksonville, FL</div>
             </v-card-text>
             <v-card-actions
