@@ -24,7 +24,7 @@
               x-large
               outlined
               color="amber darken-3"
-              href="https://twitter.com/dig_a_hash"
+              href="https://calendly.com/d/dw9-drc-pt5"
               target="_new"
               ><v-icon class="mr-2">mdi-twitter</v-icon> Join Our
               Community</v-btn
