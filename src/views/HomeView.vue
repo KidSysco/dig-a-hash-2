@@ -17,8 +17,9 @@
       <v-row dense>
         <v-col cols="12" md="3"></v-col>
         <v-col cols="12" md="6" class="px-12 text-center">
-          Dig-A-Hash houses multiple brands from our launch-pad. We help our
-          customers develop their tech, and we curate art for your enjoyment.
+          Our Mission is to assist small businesses, owner operators, creators,
+          and entrepreneurs in migrating their products and services into the
+          emerging web3 landscape.
           <div class="text-center mt-6">
             <v-btn
               x-large
